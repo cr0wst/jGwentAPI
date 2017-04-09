@@ -11,11 +11,11 @@ public class Card {
     private String info;
     private String href;
     private String flavor;
-    private String uuid;
+    private Faction faction;
+    private Group group;
 
+    private String uuid;
     private List<Category> categories;
-    private List<Faction> factions;
-    private List<Group> groups;
     private List<Position> positions;
     private List<Variation> variations;
 
@@ -67,20 +67,20 @@ public class Card {
         this.categories = categories;
     }
 
-    public List<Faction> getFactions() {
-        return factions;
+    public Faction getFaction() {
+        return faction;
     }
 
-    public void setFactions(List<Faction> factions) {
-        this.factions = factions;
+    public void setFaction(Faction faction) {
+        this.faction = faction;
     }
 
-    public List<Group> getGroups() {
-        return groups;
+    public Group getGroup() {
+        return group;
     }
 
-    public void setGroups(List<Group> groups) {
-        this.groups = groups;
+    public void setGroup(Group group) {
+        this.group = group;
     }
 
     public List<Position> getPositions() {
