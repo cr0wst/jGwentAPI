@@ -13,7 +13,7 @@ import java.util.List;
  * @author Steve Crow (steve@smcrow.net)
  */
 public class GwentApiClient implements GwentApi {
-    static final String BASE_URL = "https://api.gwentapi.com/v0/";
+    private static final String BASE_URL = "https://api.gwentapi.com/v0/";
 
     private static final GwentApiService GWENT_API_SERVICE = new Retrofit.Builder()
             .baseUrl(BASE_URL)
