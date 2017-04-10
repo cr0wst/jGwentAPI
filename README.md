@@ -19,7 +19,7 @@ jGwentAPI uses Retrofit along with OkHttp to query [GwentAPI](https://gwentapi.c
 
 Note: If you want to retrieve a card from the results you can use the
 ```java
-CardUtils.getgetUuidFromUrl(...)
+CardUtils.getUuidFromUrl(...)
 ```
 
 method to pull the uuid off the URL.
